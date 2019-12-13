@@ -1,0 +1,9 @@
+import datetime
+now = datetime.datetime.now()
+print(now)
+print(now.strftime("%d-%m-%y %M %D"))
+# %Y for four digit year %y for two digit year
+# %M for minute %m for month
+# %D for date in mm/dd/yy format, %d for day
+
+# strftime() string format method
